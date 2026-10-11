@@ -1,0 +1,12 @@
+p {
+   color: blue;
+   text-shadow: 2px 2px 4px gray;
+   font-family: 'Roboto', sans-serif;
+}
+img {
+   transition: transform 0.3s ease, filter 0.3s ease;
+}
+img:hover {
+   transform: scale(1.08) rotate(2deg);
+   filter: brightness(1.1);
+}
